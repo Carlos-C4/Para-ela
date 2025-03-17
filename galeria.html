@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <style>
+        body { 
+            background-color: #ffebf0; 
+            text-align: center; 
+            font-family: Arial, sans-serif; 
+        }
+        header img { 
+            width: 100%; 
+            height: 300px; 
+            object-fit: cover; 
+        }
+        nav { 
+            background: #ff4d6d; 
+            padding: 10px; 
+        }
+        nav a { 
+            color: white; 
+            text-decoration: none; 
+            margin: 10px; 
+            font-size: 18px; 
+        }
+        .galeria { 
+            display: flex; 
+            flex-wrap: wrap; 
+            justify-content: center; 
+        }
+        .galeria img { 
+            width: 250px; 
+            margin: 10px; 
+            transition: 0.5s; 
+            cursor: pointer; 
+        }
+        .galeria img:hover { 
+            transform: scale(1.05); 
+        }
+    </style>
+</head>
+<body>
+
+<header><img src="https://i.ibb.co/Wvm4vjcr/89c041cf-0c48-4cd3-a2dc-b848eb70d16c.jpg" alt="Foto do cabeçalho"></header>
+
+<nav>
+    <a href="index.html">Início</a>
+    <a href="historia.html">Nossa História</a>    
+    <a href="playlist.html">Playlist</a>
+    <a href="galeria.html">Galeria</a>
+    <a href="contador.html">Contador</a>
+    <a href="mensagem.html">Mensagem Secreta</a>
+</nav>
+
+<h1>Galeria de Momentos</h1>
+<div class="galeria">
+    <img src="https://i.postimg.cc/sxypXjnH/3bbfef63-cdb2-47c0-9baa-136f4364b068.jpg" alt="Foto 1">
+    <img src="https://i.postimg.cc/vTBZXCDH/daca3953-1d58-412a-a382-1d392f83ce4b.jpg" alt="Foto 2">
+    <img src="https://i.postimg.cc/VNm1D2VQ/946344b9-c3a2-4e75-830f-e9b1408420ba.jpg" alt="Foto 3">
+    <img src="https://i.postimg.cc/ZqWk7ZxQ/ec5742bc-db9b-4910-b640-47b9d1683368.jpg" alt="Foto 4">
+    <img src="https://i.postimg.cc/NjVC0XRN/e357b5ac-9891-453f-9bd5-0cd8341b4fb7.jpg" alt="Foto 5">
+    <img src="https://i.postimg.cc/wvj4wd8r/7c8aa909-12ed-4f49-aec9-b7a61f05e826.jpg" alt="Foto 6">
+</div>
+
+</body>
+</html>
